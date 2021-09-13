@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Ingresa a Banca Movil BCP"
+            android:textColor="#0163bc"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerMain"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Clave de internet" />
+
+            <ImageView
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/ic_q2" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textcode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textcode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textcode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textcode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textcode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/textcode"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="1" />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:textColor="#F17624"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="Olvide mi clave"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:text="Siguiente"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonredondo"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:text="No tengo clave de internet"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btnborder"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+        />
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
